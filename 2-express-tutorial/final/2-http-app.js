@@ -3,7 +3,7 @@ const { readFileSync } = require('fs');
 
 // get all files
 const homePage = readFileSync('./navbar-app/index.html');
-const homeStyle = readFileSync('./navbar-app/style.css');
+const homeStyle = readFileSync('./navbar-app/styles.css');
 const homeLogic = readFileSync('./navbar-app/browser-app.js');
 const homeLogo = readFileSync('./navbar-app/logo.svg');
 
